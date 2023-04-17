@@ -56,9 +56,7 @@ body {
 
 .projectcontainer{
 
-    color: white;
     display: flex;
-    transition: opacity 2s ease-in-out;
     transform: translateY(119px);
     animation: fadeInAppear 1s ease-in;
     font-family: "HelveticaNowDisplay-ExtraBold", sans-serif;
@@ -96,7 +94,7 @@ body {
      }
  } 
 
-.intro.fade-out {
+.intro.fade-out, .projectcontainer.fade-out{
     transform: translateY(119px);
     animation: fadeInDissapear 2s ease-in;
   }
