@@ -132,7 +132,7 @@ article {
     background: linear-gradient(357deg, #010202 6.001%, transparent), url(images/shantanu.png);
     background-size: cover;
     height: 500px;
-    animation: image-appear 6s forwards;
+    animation: image-appear 9s forwards;
     width: 550px;
     background-repeat: no-repeat;
     border-radius: 50px;
