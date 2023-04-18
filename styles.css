@@ -2,19 +2,19 @@ body {
     color: white;
     background: radial-gradient(circle, rgb(0, 0, 0) 50%, rgb(9, 63, 107) 90%);
     background-size: 300% 300%;
-    animation: move-colors 5s forwards infinite;
+    animation: move-colors 10s forwards infinite;
     margin-left: 16px;
 }
   
   @keyframes move-colors {
     0% {
-      background-position: 50% 80%;
+      background-position: 60% 80%;
     }
     50% {
-      background-position: 10% 60%;
+      background-position: 0% 20%;
     }
     100% {
-      background-position: 50% 80%;
+      background-position: 60% 80%;
     }
   }
 
