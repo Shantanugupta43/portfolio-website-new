@@ -250,6 +250,11 @@ video {
   border-radius: 20px;
 }
 
+article{
+  display: flex;
+  flex-direction: column;
+}
+
 input[type="text"],input[type="email"], textarea {
   width: 280px;
 }
