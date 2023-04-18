@@ -23,15 +23,35 @@
     </header>
 
     <main class="intro">
+        <div class="projectcontainer">
+        
+        <h1 class="projectdescription">Want to collaborate? Let's Connect.</h1>
+
+        <article>
         <section class="projectdescription">
-        <h1>About Me</h1>
-            <p>Studying Web Applications at an early stage caught my interest in the world of coding and developing web pages using basic HTML, CSS, and JavaScript. Enthralled by the ability to create websites, I was inspired and passionate to learn more about the web industry which led me to choose a path where I could learn more and enhance my career in web technology.</p>
-            <p>As an artist, I compose and release my singles on music publishing sites like Spotify, Amazon Music, Anaghami and many more. </p>
-            <p>Below is the demo of my artistic skills. </p>
-            <video controls>
-                <source src="guitarplay.mp4" type="video/mp4">
-            </video>
+            <form action="email.php" method="post">
+                <label for="name">Name:</label>
+                <p><input type="text" id="name" name="name" required></p>
+              
+                <label for="email">Email:</label>
+                <p><input type="email" id="email" name="email" required></p>
+              
+                <label for="message">Message:</label>
+                <p><textarea id="message" name="message" required></textarea></p>
+              
+                <p><input type="submit" value="Send"></p>
+              </form>
         </section>
+
+        </article>
+
+        </div>
+
+        
+
+
+
+
     </main>
 
     

@@ -185,3 +185,21 @@ a{
     justify-content: space-between;
     align-items: center;
   }
+
+  input[type="text"],input[type="email"], textarea {
+    font-size: 27px;
+    width: 614px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  input[type="submit"]{
+
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4b0b62;
+    border-radius: 30px;
+
+  }
