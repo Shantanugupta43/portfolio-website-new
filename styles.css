@@ -241,8 +241,8 @@ a{
 }
 
 video {
-  width: 351px;
-  height: 245px;
+  width: 253px;
+  height: 202px;
 }
 
 .projectcontainer{
@@ -254,6 +254,8 @@ video {
   width: 312px;
   border-radius: 20px;
 }
+
+
 
 article{
   display: flex;
