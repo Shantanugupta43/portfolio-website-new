@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', function () {
         setTimeout(function() {
           content.classList.remove("fade-out");
           window.location.href = event.target.href;
-        }, 1500);
+        }, 1000);
 
         console.log("done");
       }
