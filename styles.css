@@ -171,7 +171,8 @@ a{
 
   li{
     list-style-type: none;
-    margin-left: 10px;
+    margin-right: 20px;
+    font-family: "HelveticaNowDisplay-ExtraBold", sans-serif;
   }
 
   .logo{
@@ -211,6 +212,10 @@ a{
       display: flex;
       flex-direction: column;
       justify-content: center;
+  }
+
+  li{
+    margin-bottom: 13px;
   }
 
   header {
